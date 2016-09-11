@@ -24,7 +24,6 @@ This ducument is used for recording some notes for mechatronic systems designing
     * impedance for C is 1/CD, impedance for L is LD, impedance for R is R.
 ## [Operational Amplifier]
 The Op Amp is a circuit element consisted of capacitors and resistors, it can be used to amplify the input signals and commit operations for input signals.
-*     * mechanical elements: displacement, velocity, accelaration, force
 * 741 Op Amp has 8 pins, 2 - inverting input, 3 - noninverting input, 4 - -15v, 7 - +15v, 6 - output. 
 * we can use TEC and NEC to simplify Op Amp inner circuits. The input impedance can be assumed to be infinity, the output infinity can be assumed to be zero, the two input potentials can be assumed to be equal and two input current flow can be assumend to be zero.
 * some examples for operational amplifier involved circuits.
