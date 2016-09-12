@@ -1,9 +1,10 @@
 <h1 align="center">ME552 Mechatronic Systems Design</h1>
 yeeyoung@umich.edu
 09-12-2016
-----
+
 ## [Introduction]
 This ducument is used for recording some notes for mechatronic systems designing. Lab 1 is about basics of electronic circuits.
+
 ## [Electronic Circuits]
 * voltage, current, power
 * how to determine the passive source and active source elements in a circuit.
@@ -22,11 +23,13 @@ This ducument is used for recording some notes for mechatronic systems designing
     * RC and LR circuits are both first order circuits, the impedance is easily solved, the time constant for RC circuits is RC, constant for LR is L/R.
     * LRC circuit is a second order circuits.
     * impedance for C is 1/CD, impedance for L is LD, impedance for R is R.
+
 ## [Operational Amplifier]
 The Op Amp is a circuit element consisted of capacitors and resistors, it can be used to amplify the input signals and commit operations for input signals.
 * 741 Op Amp has 8 pins, 2 - inverting input, 3 - noninverting input, 4 - -15v, 7 - +15v, 6 - output. 
 * we can use TEC and NEC to simplify Op Amp inner circuits. The input impedance can be assumed to be infinity, the output infinity can be assumed to be zero, the two input potentials can be assumed to be equal and two input current flow can be assumend to be zero.
 * some examples for operational amplifier involved circuits.
+
 ## [DAQ Basics]
 lab 1 requirments: 100 kohm, 200 kohm, 741 Op Amp, hard core wire, jumper wire, breakout board, breadboard
 * Step 1: Open Labview and configure MAX, create a time loop in the block diagram
