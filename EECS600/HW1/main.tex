@@ -1,0 +1,148 @@
+\documentclass[letterpaper]{article}
+\usepackage{amssymb}
+\usepackage{fullpage}
+\usepackage{changepage}
+\usepackage{amsmath}
+\usepackage{epsfig,float,alltt}
+\usepackage{psfrag,xr}
+\usepackage[T1]{fontenc}
+\usepackage{url}
+\usepackage{pdfpages}
+\usepackage{epstopdf}
+\usepackage[framed,numbered,autolinebreaks,useliterate]{mcode}
+
+%\includepdfset{pagecommand=\thispagestyle{fancy}}
+\author{Yi Yang}
+\title{Solution of EECS 600 HW \#1}
+
+\begin{document}
+\date{}
+\maketitle
+
+\newcommand{\trace}{\mathrm{trace}}
+\newcommand{\real}{\mathbb R}  % real numbers  {I\!\!R}
+\newcommand{\nat}{\mathbb N}   % Natural numbers {I\!\!N}
+\newcommand{\cp}{\mathbb C}    % complex numbers  {I\!\!\!\!C}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\mf}[2]{\frac{\ds #1}{\ds #2}}
+\newcommand{\spanof}[1]{\textrm{span} \{ #1 \}}
+\newcommand{\sol}[0]{\textbf{Solution: }}
+\newcommand{\pf}[0]{\textbf{Proof: }}
+\newcommand{\rme}[0]{\textrm{e}}
+\newcommand{\Null}[1]{\textrm{Null}\{#1\}}
+\parindent 0pt
+
+\begin{enumerate}
+	\item[1.]\pf
+	The collection of infinite number of sequences which converges to zero is a vector space. In order to prove this statement, we should see whether it satisfies $5$ addition and $5$ scalar multiplication conditions:\\
+	\large{\textbf{Addition}}:\\
+	\textbf{Closure: }$\forall\;\{x_n\}_{n=1}^\infty, \{y_n\}_{n=1}^\infty\in \textrm{X}$, and we want to see $\{x_n + y_n\}_{n=1}^\infty\in\textrm{X}$\;.\\
+	$\forall\;\epsilon = \epsilon_{1}+\epsilon_{2} > 0, \epsilon_{1}>0, \epsilon_{2}>0$, there exists $N>0$, such that $|x_n + y_n|<\epsilon$ for all $n>N$\;.\\
+	From the convergence of sequences $\{x_n\}$ and $\{y_n\}$, we know the following statements are true:\\
+	$\forall \epsilon_{1}, \epsilon_{2} > 0$, there exists $N_{1}$ and $N_{2}$ that are both greater than $0$, such that $|x_n|<\epsilon_{1}$ for all $n > N_{1}$ and $|y_n|<\epsilon_{2}$ for all $n>N_{2}$, we choose $N=\max\{N_{1},N_{2}\}$ so that we know the convergence statement satisfies for the sum of two sequences\;.\\
+	\textbf{Commutativity, Associativity: } can be deduced from commutativity and associativity of the additions of real numbers\;.\\
+	\textbf{Additive identity: } $\exists\;\{0\}_{n=1}^{\infty}$ such that $\forall\;\{x_n\}_{n=1}^{\infty}\in\textrm{X}$, $\{0+x_n\}_{n=1}^{\infty}=\{x_n\}_{n=1}^{\infty}\in\textrm{X}$\;.\\
+	\textbf{Additive inverse: } additive inverse of two infinite sequences of real numbers is a infinite sequences filled with $0$ which satisfies our condition\;.\\
+	\large{\textbf{Scalar Multiplication}}:\\
+	\textbf{Closure: } $\forall\;\epsilon=\mf{\epsilon_{1}}{|a|}>0,\;a\in\real$, there exists $N>0$, such that $|\mf{x_n}{a}|<\mf{\epsilon_{1}}{|a|}$ for all $n>N$\;.\\ 
+	\textbf{Associativity, First Distributivity, Second Distributivity and application of multiplicative identity} can be deduced from properties of real numbers and closure conditions.\\
+	
+	\item[2.]
+	
+	
+	
+    \item[3(a)]\sol
+The matlab code for both versions is attached below.
+\lstinputlisting[firstline = 1, lastline = 67]{problem3.m}
+For the general case, we can get $A$ is:
+  \begin{equation*}
+    A=\begin{pmatrix}
+        8.000000000000000&  -4.582575694955841&   0&   0\\
+      -4.582575694955841&  12.571428571428569 &  3.886134431067267 & -0.000000000000001\\
+      0 &  3.886134431067267 &  7.666409266409263 & -1.188992612745301\\
+      0  &-0.000000000000001 & -1.188992612745300 &  3.762162162162162
+    \end{pmatrix},
+  \end{equation*}
+For the real symmetric case:
+    \begin{equation*}
+    A=\begin{pmatrix}
+           8.000000000000000 & -4.582575694955840     &              0       &            0\\
+            -4.582575694955840  &12.571428571428562  & 3.886134431067272     &              0\\
+                   0  & 3.886134431067272  & 7.666409266409261 & -1.188992612745300\\
+                   0    &               0 & -1.188992612745300 &  3.762162162162163
+    \end{pmatrix}.
+  \end{equation*}
+
+  \item[3(b)]
+  The cputime for the two methods are listed below.
+  \begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|}
+    \hline
+    % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+    $m$ & general algorithm & symmetric\\ \hline
+    100 &            0      & 0.218401400000005\\
+    200 & 0.702004500000001 &  1.310408400000000\\
+    300 & 0.826805299999997 &  3.915625100000000\\
+    400 & 2.090413400000003 &  5.007632099999995\\
+    500 & 4.040425900000003 &  8.751656100000005\\
+    600 & 7.971651099999988 & 14.086890300000007\\
+    700 & 14.367692099999999&  21.746539400000003\\
+    800 & 24.133354699999984&  31.746203500000007 \\   
+    900 & 36.410633399999995&  43.664679899999982\\
+    1000& 52.853138800000011&  59.997984599999995\\ \hline
+  \end{tabular}\caption{CPU time.\label{tab:pb3_1}}
+  \end{table}
+  From this table, we can see the general case will cost less cputime to run the code. This is because Matlab will spend extra time to run the inner loops.
+  \item[4(a)]\sol
+Matlab code is listed below.
+    \lstinputlisting[firstline = 1, lastline = 100]{problrm4.m}
+    The results at each step are\\[.2 cm]
+    \begin{tabular}{|c|c|c|c|}
+      \hline
+      % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+      Iteration Number & Power method & inverse iteration & Rayleigh quotient\\\hline
+       1 &  16.672131147540984 & 14.399999999999999 & 16.684615384615384\\
+       2 &  16.683819628647210 &  7.135135135135138 & 16.684658438426489\\
+       3 &  16.684602322430148 &  4.554938956714761 & 16.684658438426489\\
+       4 &  16.684654684513276 &  4.331664534989951 & 16.684658438426489\\
+       5 &  16.684658187307214 &  4.316434838256361 & 16.684658438426489\\
+       6 &  16.684658421627791 &  4.315414702695186 & 16.684658438426489\\
+       7 &  16.684658437302737 &  4.315346454398972 & 16.684658438426489\\
+       8 &  16.684658438351320 &  4.315341888880738 & 16.684658438426489\\
+       9 &  16.684658438421469 &  4.315341583468829 & 16.684658438426489\\
+      10 &  16.684658438426155 &  4.315341563038205 & 16.684658438426489\\ \hline
+    \end{tabular}\\
+
+  \item[4(b)]\sol The maximum magnitude of the off-diagonal elements at each step is\\
+  \begin{table}[!h]
+    \centering
+    \begin{tabular}{|c|c|}
+    \hline
+    % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+    Iteration Number & maximum magnitude of off-diagonal element\\ \hline
+    1 & 4.289906995109921\\
+    2 & 2.659558449077073\\
+    3 & 1.363329400421120\\
+    4 & 0.727713493424353\\
+    5 & 0.394169759053324\\
+    6 & 0.252862471417952\\
+    7 & 0.178747433831389\\
+    8 & 0.125365640161673\\
+    9 & 0.087544529634242\\
+   10 & 0.060995911929791\\ \hline
+  \end{tabular}
+  \end{table}\\[.2cm]
+  and the final matrix is
+  \begin{equation*}
+    A^{(10)}=
+    \begin{pmatrix}
+    16.684650870697748 &  0.008106965374877 &  0.000018128314708 &  0.000000256400932\\
+    0.008106965374876  & 7.999920721769701  & 0.017888947809789  & 0.000253015404780\\
+    0.000018128314708  & 0.017888947809787  & 4.312593875744196  & 0.060995911929791\\
+    0.000000256400932  & 0.000253015404780  & 0.060995911929791  & 3.002834531788369
+    \end{pmatrix}.
+  \end{equation*}\\
+
+\end{enumerate}
+\end{document}}
