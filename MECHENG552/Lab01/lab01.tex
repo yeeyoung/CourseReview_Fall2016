@@ -53,7 +53,7 @@ $$\frac{V_{out}(s)}{V_{in}(s)} = - \frac{Z_2}{Z_1} = -  \frac{R_4(sR_2C_2 +1)}{(
 $$=  -  \frac{R_4}{R_3}\frac{(sR_2C_2 +1)}{(s(R_2C_2 + R_4C_2) + 1)}\frac{(s(R_1C_1 + R_3C_1) + 1)}{(sR_1C_1 +1)} $$
 If we assume $R_3 = R_4$, we will gain the standard formula of lead-lag compensator.
 $$ - \frac{(sR_2C_2 +1)}{(s(R_2C_2 + R_4C_2) + 1)}\frac{(s(R_1C_1 + R_3C_1) + 1)}{(sR_1C_1 +1)}  = \frac{(1+0.1s)(1 + 5s)}{(1+0.01s)(1 + 10s)}$$
-We can ignore the minus sign on the LHS since it will not affect the lead-lag property of the circuits. Hence, we could formulate the following relations:
+As illustrated in Lab1 instruction file, we can use two methods to invert the output polarity, so we could directly get the following equations:
 $$R_1C_1 = 0.01$$
 $$R_2C_2 = 5$$
 $$R_1C_1 + R_3C_1 = 0.01 + R_3C_1 = 0.1$$
@@ -95,5 +95,7 @@ We can set values to capacitors and resistors arbitrarily. However, the values w
 \label{q1_td}
 \end{center}
 \end{table}
-
+Having decided on the resistors, capacitors and op-amp that we need, we need further decide the voltage ratings for capacitors and wattage ratings for resistor, the wattage ratings should exceed the power supply of the system to ensure the safety of circuit components.
+\subsection*{(e)}
+Refer to the "Lab 1 Instructions" document and construct the circuits and collect relevant data.
 \end{document}
