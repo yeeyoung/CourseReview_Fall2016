@@ -1,0 +1,45 @@
+\documentclass[letterpaper]{article}
+\usepackage{amssymb}
+\usepackage{fullpage}
+\usepackage{changepage}
+\usepackage{amsmath}
+\usepackage{epsfig,float,alltt}
+\usepackage{psfrag,xr}
+\usepackage[T1]{fontenc}
+\usepackage{url}
+\usepackage{pdfpages}
+\usepackage{epstopdf}
+\usepackage[framed,numbered,autolinebreaks,useliterate]{mcode}
+
+%\includepdfset{pagecommand=\thispagestyle{fancy}}
+\author{Yi Yang}
+\title{EECS 442 Homework \#1}
+
+\begin{document}
+\date{09/17/2016}
+\maketitle
+
+\newcommand{\trace}{\mathrm{trace}}
+\newcommand{\real}{\mathbb R}  % real numbers  {I\!\!R}
+\newcommand{\nat}{\mathbb N}   % Natural numbers {I\!\!N}
+\newcommand{\cp}{\mathbb C}    % complex numbers  {I\!\!\!\!C}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\mf}[2]{\frac{\ds #1}{\ds #2}}
+\newcommand{\spanof}[1]{\textrm{span} \{ #1 \}}
+\newcommand{\sol}[0]{\textbf{Solution: }}
+\newcommand{\pf}[0]{\textbf{Proof:}}
+\newcommand{\rme}[0]{\textrm{e}}
+\newcommand{\Null}[1]{\textrm{Null}\{#1\}}
+\parindent 0pt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Solution for Question 1 begins here - by Yi Yang
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Problem 1}
+\subsection*{(a)}
+Suppose $X_c$ and $X_w$ are the same coordinates represented in Camera and World coordinates. Hence, we have the relation $X_c = PX_w$, $P$ is the $4\times4$ combined rotation and translation matrix from homogeneous world coordinates to homogeneous camera coordinates. It is easy to get following relations:
+$$W_x = -\cos(45^{\circ})\times C_x + 0\times C_y - \cos(45^{\circ})\times C_z$$
+$$W_y = C_y$$
+$$W_z = \cos(45^{\circ})\times C_x + 0\times C_y - \cos(45^{\circ})\times C_z$$
+Hence, the transformation matrix:
+$$P = $$
+\end{document}
