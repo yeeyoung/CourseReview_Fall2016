@@ -40,6 +40,51 @@ Suppose $X_c$ and $X_w$ are the same coordinates represented in Camera and World
 $$W_x = -\cos(45^{\circ})\times C_x + 0\times C_y - \cos(45^{\circ})\times C_z$$
 $$W_y = C_y$$
 $$W_z = \cos(45^{\circ})\times C_x + 0\times C_y - \cos(45^{\circ})\times C_z$$
-Hence, the transformation matrix:
-$$P = $$
+Hence, the transformation matrix:\\
+$$ P = 
+\begin{bmatrix}
+	    -\cos(45^{\circ}) & 0 & \cos(45^{\circ}) & 0\\
+		0 & 1 & 0 & 0\\
+		-\cos(45^{\circ}) & 0 & -\cos(45^{\circ}) & d\\
+		0 & 0 & 0 & 1\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+		-\mf{\sqrt{2}}{2} & 0 & \mf{\sqrt{2}}{2} & 0\\
+		0 & 1 & 0 & 0\\
+		-\mf{\sqrt{2}}{2} & 0 & -\mf{\sqrt{2}}{2} & d\\
+		0 & 0 & 0 & 1\\
+\end{bmatrix}
+$$
+\subsection*{(b)}
+Consider the unit square in the world coordinate and transform it into camera coordinate, suppose $a^w = [0 \; p \; q \; 1]^T$, $b^w = [0 \; 	p+1 \; q \; 1]^T$, $c^w = [0 \; p+1 \; q+1 \; 1]^T$ and $d = [0 \; p \; q+1 \; 1]^T$. After transformation, the new coordinates for four points of the square are: $a^c = [\mf{\sqrt{2}}{2}q ,\; p, \; -\mf{\sqrt{2}}{2}q, \; 1]^T$, $b^c = [\mf{\sqrt{2}}{2}q ,\; p+1, \; -\mf{\sqrt{2}}{2}q, \; 1]^T$, $c^c = [\mf{\sqrt{2}}{2}(q+1) ,\; p+1, \; -\mf{\sqrt{2}}{2}(q+1), \; 1]^T$ and $d^c = [\mf{\sqrt{2}}{2}(q+1) ,\; p, \; -\mf{\sqrt{2}}{2}(q+1), \; 1]^T$. From these coordinates we see the transformation will not change the form of the square, thereby the area of the the square will remain the same.
+\subsection*{(c)}
+Assume two end point of one line is $a^w = [x_1,\; y_1,\; z_1,\; 1]$, $b^w = [x_1+p,\; y_1+q,\; z_1+r,\; 1]$ and the end points of the parallel line are $c^w = [x_2,\; y_2,\; z_2,\; 1]$, $d^w = [x_2+pt,\; y_2+qt,\; z_2+rt,\; 1]$. After the transformation, we get the new coordinates for new end points of these two parallel lines:
+$$a^c = [-\mf{\sqrt{2}}{2}x_1 + \mf{\sqrt{2}}{2}z_1,\; y_1,\; -\mf{\sqrt{2}}{2}x_1 - \mf{\sqrt{2}}{2}z_1 + d,\; 1]^T$$
+$$b^c = [-\mf{\sqrt{2}}{2}(x_1 + p) + \mf{\sqrt{2}}{2}(z_1 + r),\; y_1 + q,\; -\mf{\sqrt{2}}{2}(x_1 + p) - \mf{\sqrt{2}}{2}(z_1 + r) + d,\; 1]^T$$
+$$c^c = [-\mf{\sqrt{2}}{2}x_2 + \mf{\sqrt{2}}{2}z_2,\; y_2,\; -\mf{\sqrt{2}}{2}x_2 - \mf{\sqrt{2}}{2}z_2 + d,\; 1]^T$$
+$$b^c = [-\mf{\sqrt{2}}{2}(x_2 + pt) + \mf{\sqrt{2}}{2}(z_2 + rt),\; y_2 + qt,\; -\mf{\sqrt{2}}{2}(x_2 + pt) - \mf{\sqrt{2}}{2}(z_2 + rt) + d,\; 1]^T$$
+We can easily get the following relations:
+$$\overrightarrow{a^cb^c} = [\mf{\sqrt{2}}{2}(r - p),\; q,\; -\mf{\sqrt{2}}{2}(r + p), 0]^T$$
+$$\overrightarrow{c^cd^c} = [\mf{\sqrt{2}}{2}(r - p)t,\; qt,\; -\mf{\sqrt{2}}{2}(r + p)t, 0]^T$$
+Hence, we can conclude that parallel lines in the world reference system still parallel in the camera reference system as proven above.
+\subsection*{(d)}
+$$\overrightarrow{a^wb^w} = [0,\; 1,\; 0,\; 0]^T$$
+$$\overrightarrow{a^cb^c} = [0,\; 1,\; 0,\; 0]^T$$
+we can easily conclude that vector defined by $a$ and $c$ have the same orientation in both reference system.
+
+\hspace*{2em}
+\section*{Problem 2}
+The projection point $P^\prime = [x^\prime,\; y^\prime]^T$ can be calculated by:
+\begin{align*}
+	x^\prime = & f^\prime \mf{x}{z}\\
+	y^\prime = & f^\prime \mf{y}{z}
+\end{align*}
+Hence, the projection of points on line are given by
+$x^\prime = f^\prime \mf{1}{t}$ and $y^\prime = f^\prime \mf{1}{t}$, we see the end points of the original line requires t equal to $-\infty$ and $-1$, so we can get the end points of the projection are $[-f^\prime,\; -f^\prime]^T$ and $[0,\; 0]^T$.
+
+\hspace*{2em}
+\section*{Problem 3}
+\subsection*{(a)}
+
 \end{document}
