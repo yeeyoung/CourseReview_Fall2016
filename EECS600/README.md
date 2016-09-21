@@ -34,4 +34,19 @@ a counter example proof of that continuous function with absolute integral norm 
 __closed subset of Banach Space is complete and vice versa__  
 __inner product__: satisfy 3 conditions  
 
-
+<u>*09-15-2016*</u> To make it easier to review the material, I do not want to accentuate each terminology any more.  
+Cauchy-Schwartz inequality  
+normed vector space  
+Banach space  
+Inner Product space (Pre-Hilbert Space)  
+Hilbert Space  
+Projection Problem  
+How to decide the existance and uniqueness of the solution to projection problem  
+Orthogonality Principle for inner product space  
+Projection Theorem for closed subspace of Hilbert Space (proof)  
+Orthogonality Principle for convex subset of inner product space  
+Projection Theorem for closed convex subset of Hilbert Space  
+Lp and lp normed space  
+Holder's inequality  
+Minkowski's inequality  
+How to prove Minkowski inequality from Holder's inequality, which conditions for equality holds and what p, q conditions for inequality and equality holds for two formulas.
