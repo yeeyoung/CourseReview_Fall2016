@@ -101,9 +101,8 @@ $$l^\prime = (Hx_1) \times (Hx_2) = [137.1000,\; 62.5400,\; -396.7632]^T$$
 The Matlab code is listed below:
 \lstinputlisting[firstline=1, lastline=50]{p3.m}
 \subsection*{(c)}
-To derive the relations between $l$, $l^\prime$ and $H$, we first find $(x_1^T - x_2^T)l = 0$ and $({x_1^\prime}^T - {x_2^\prime}^T)l^\prime = 0$. Then we have:
-$$((Hx_1)^T - (Hx_2)^T)l^\prime = (x_1^T - x_2^T)l$$
-$$(x_1^T - x_2^T)H^Tl^\prime = (x_1^T - x_2^T)l$$
-if $x_1 \neq x_2$, we can get the following relation:
-$$l = H^Tl^\prime$$
+To derive the relations between $l$, $l^\prime$ and $H$, we have to use the formula introduced in discussion:
+$$l^\prime = (Hx_1) \times (Hx_2) = \det(H)H^{-T}x_1 \times x_2 = \det(H)H^{-T}l$$
+Hence, the relations between $l^\prime$, $l$ and $H$ is:
+$$l^\prime = \det(H)H^{-T}l$$
 \end{document}
