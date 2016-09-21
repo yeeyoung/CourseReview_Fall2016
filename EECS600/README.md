@@ -49,4 +49,6 @@ Projection Theorem for closed convex subset of Hilbert Space
 Lp and lp normed space  
 Holder's inequality  
 Minkowski's inequality  
-How to prove Minkowski inequality from Holder's inequality, which conditions for equality holds and what p, q conditions for inequality and equality holds for two formulas.
+How to prove Minkowski inequality from Holder's inequality, which conditions for equality holds and what p, q conditions for inequality and equality holds for two formulas.  
+Some notes that clarify conceptions like "complete", "compact", "closure" etc have been recorded in review1.pdf uploaded into this folder.  
+
