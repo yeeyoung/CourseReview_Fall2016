@@ -86,5 +86,24 @@ $x^\prime = f^\prime \mf{1}{t}$ and $y^\prime = f^\prime \mf{1}{t}$, we see the 
 \hspace*{2em}
 \section*{Problem 3}
 \subsection*{(a)}
-
+This problem will introduce projective geometry in 2D techniques to us. We will have the following propositions:
+\begin{itemize}
+	\item We are in a plane P and want to describe points and lines on P
+	\item We consider a third dimension to make things easier when dealing with infinity
+	\item To each point of P, we associate it with a ray $X = [x_1,\; x_2,\; x_3]^T$
+	\item To each line of P, we associate it with a plane $(a,\; b,\; c)^T$
+\end{itemize}
+Hence, we can conclude that the line passes through two points is:
+$$l = x_1 \times x_2 = (2,\; 2,\; -8)^T$$
+\subsection*{(b)}
+With the same method, we can get the line passes through $x_1^\prime$ and $x_2^\prime$ is:
+$$l^\prime = (Hx_1) \times (Hx_2) = [137.1000,\; 62.5400,\; -396.7632]^T$$
+The Matlab code is listed below:
+\lstinputlisting[firstline=1, lastline=50]{p3.m}
+\subsection*{(c)}
+To derive the relations between $l$, $l^\prime$ and $H$, we first find $(x_1^T - x_2^T)l = 0$ and $({x_1^\prime}^T - {x_2^\prime}^T)l^\prime = 0$. Then we have:
+$$((Hx_1)^T - (Hx_2)^T)l^\prime = (x_1^T - x_2^T)l$$
+$$(x_1^T - x_2^T)H^Tl^\prime = (x_1^T - x_2^T)l$$
+if $x_1 \neq x_2$, we can get the following relation:
+$$l = H^Tl^\prime$$
 \end{document}
