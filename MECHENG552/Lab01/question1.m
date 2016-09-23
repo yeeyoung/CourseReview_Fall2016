@@ -1,10 +1,12 @@
 %% This program is used for comparing theoretical bode plots and experiments bode plots
 % by - Yi Yang, Feng Zhou, Fan Bu, all rights reserved
 % date: 9/18/2016
+clear all;
+clc;
 %-------------------------------------------------------------------------------------
 % Theoretical plot
 s = tf('s');
-Gth = (1 + 0.1 * s) * (1 + 5 * s)/(1 + 0.01 * s) * (1 + 10 * s);
+Gth = (1 + 0.1 * s) * (1 + 5 * s)/((1 + 0.01 * s) * (1 + 10 * s));
 [MagTh, PhaseTh, FreqTh] = bode(Gth, {0.001, 2 * pi * 500});
 Mag = zeros(length(MagTh), 1);
 Phase = zeros(length(PhaseTh), 1);
@@ -15,10 +17,23 @@ for i = 1:length(MagTh)
 end
 % Experimental plot
 % We decide to plot theoretical curves and experimental curves
-data = xlsread('data1.xlsx');
+close all;
+data = xlsread('assignment1.xlsx');
 freq = data(:, 3) * 2 * pi;
 amp = data(:, 1);
 phase = data(:, 2);
+% for j = 1:length(phase)
+%     phase(j) = phase(j) + 180;
+% end
+for j = 1:length(phase)
+    while phase(j) < -180
+        phase(j) = phase(j) + 360;
+    end
+    while phase(j) > 180
+        phase(j) = phase(j) - 360;
+    end
+end
+
 amp = 20*log10(amp); % transform to decibel
 figure(1);
 handle1 = subplot(2, 1, 1);

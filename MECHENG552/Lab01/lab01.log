@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.9.10)  18 SEP 2016 18:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.9.10)  22 SEP 2016 22:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -448,31 +448,142 @@ Package pdftex.def Info: q1_circuitDiagram.png used on input line 42.
 Non-PDF special ignored!
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./q1_circuitDiagram.png>] 
-[2] [3] (./lab01.aux) ) 
+[2] <q1f_bode.png, id=23, 421.575pt x 316.18124pt>
+File: q1f_bode.png Graphic file (type png)
+
+<use q1f_bode.png>
+Package pdftex.def Info: q1f_bode.png used on input line 105.
+(pdftex.def)             Requested size: 421.57396pt x 316.18047pt.
+ [3 <./q1f_bode.png (PNG copy)>] (./question1.m
+LaTeX Font Info:    Try loading font information for TS1+pcr on input line 8.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pcr.fd
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+) [4])
+<front_panel.PNG, id=32, 883.80188pt x 538.26094pt>
+File: front_panel.PNG Graphic file (type png)
+ <use front_panel.PNG>
+Package pdftex.def Info: front_panel.PNG used on input line 155.
+(pdftex.def)             Requested size: 265.14261pt x 161.47952pt.
+
+<block_diagram.PNG, id=34, 958.3303pt x 665.48625pt>
+File: block_diagram.PNG Graphic file (type png)
+ <use block_diagram.PNG>
+Package pdftex.def Info: block_diagram.PNG used on input line 155.
+(pdftex.def)             Requested size: 239.58199pt x 166.37115pt.
+
+Overfull \hbox (34.96957pt too wide) in paragraph at lines 155--156
+ [][][] 
+ []
+
+[5] <q2_circuitDiagram.png, id=38, 649.16211pt x 289.08pt>
+File: q2_circuitDiagram.png Graphic file (type png)
+
+<use q2_circuitDiagram.png>
+Package pdftex.def Info: q2_circuitDiagram.png used on input line 164.
+(pdftex.def)             Requested size: 369.88582pt x 164.71555pt.
+ [6 <./front_panel.PNG> <./block_diagram.PNG> <./q2_circuitDiagram.png>] <f_set
+1.PNG, id=45, 826.58812pt x 523.20468pt>
+File: f_set1.PNG Graphic file (type png)
+
+<use f_set1.PNG>
+Package pdftex.def Info: f_set1.PNG used on input line 214.
+(pdftex.def)             Requested size: 330.62938pt x 209.27815pt.
+ <f_set2.PNG, id=46, 835.62187pt x 535.2497pt>
+File: f_set2.PNG Graphic file (type png)
+
+<use f_set2.PNG>
+Package pdftex.def Info: f_set2.PNG used on input line 215.
+(pdftex.def)             Requested size: 334.24283pt x 214.09608pt.
+ <f_set3.PNG, id=47, 835.62187pt x 535.2497pt>
+File: f_set3.PNG Graphic file (type png)
+
+<use f_set3.PNG>
+Package pdftex.def Info: f_set3.PNG used on input line 216.
+(pdftex.def)             Requested size: 334.24283pt x 214.09608pt.
+ [7]
+Overfull \vbox (42.98428pt too high) has occurred while \output is active []
+
+
+[8 <./f_set1.PNG> <./f_set2.PNG> <./f_set3.PNG>]
+<g_set1.PNG, id=58, 835.62187pt x 535.2497pt>
+File: g_set1.PNG Graphic file (type png)
+ <use g_set1.PNG>
+Package pdftex.def Info: g_set1.PNG used on input line 224.
+(pdftex.def)             Requested size: 334.24283pt x 214.09608pt.
+
+<g_set2.PNG, id=59, 835.62187pt x 535.2497pt>
+File: g_set2.PNG Graphic file (type png)
+ <use g_set2.PNG>
+Package pdftex.def Info: g_set2.PNG used on input line 225.
+(pdftex.def)             Requested size: 334.24283pt x 214.09608pt.
+
+<osc_set1.jpg, id=60, 4047.12pt x 3035.34pt>
+File: osc_set1.jpg Graphic file (type jpg)
+ <use osc_set1.jpg>
+Package pdftex.def Info: osc_set1.jpg used on input line 232.
+(pdftex.def)             Requested size: 404.73572pt x 303.55179pt.
+
+<osc_set2.jpg, id=61, 4047.12pt x 3035.34pt>
+File: osc_set2.jpg Graphic file (type jpg)
+ <use osc_set2.jpg>
+Package pdftex.def Info: osc_set2.jpg used on input line 233.
+(pdftex.def)             Requested size: 404.73572pt x 303.55179pt.
+ [9 <./g_set1.PNG> <./g_set2.PNG>]
+Overfull \vbox (11.61754pt too high) has occurred while \output is active []
+
+
+[10 <./osc_set1.jpg> <./osc_set2.jpg>]
+<beating.PNG, id=70, 835.62187pt x 535.2497pt>
+File: beating.PNG Graphic file (type png)
+ <use beating.PNG>
+Package pdftex.def Info: beating.PNG used on input line 242.
+(pdftex.def)             Requested size: 501.37698pt x 321.15228pt.
+
+Overfull \hbox (31.62196pt too wide) in paragraph at lines 242--243
+ [][] 
+ []
+
+Missing character: There is no ï in font cmr10!
+Missing character: There is no ¼ in font cmr10!
+Missing character: There is no Œ in font cmr10!
+[11 <./beating.PNG>] <q3circuit.png, id=75, 358.33875pt x 215.30438pt>
+File: q3circuit.png Graphic file (type png)
+
+<use q3circuit.png>
+Package pdftex.def Info: q3circuit.png used on input line 261.
+(pdftex.def)             Requested size: 358.33788pt x 215.30385pt.
+ [12 <./q3circuit.png>] [13] (./lab01.aux) ) 
 Here is how much of TeX's memory you used:
- 5889 strings out of 493304
- 80575 string characters out of 6139871
- 148589 words of memory out of 5000000
- 9222 multiletter control sequences out of 15000+600000
- 16353 words of font info for 50 fonts, out of 8000000 for 9000
+ 6087 strings out of 493304
+ 82986 string characters out of 6139871
+ 214679 words of memory out of 5000000
+ 9394 multiletter control sequences out of 15000+600000
+ 18475 words of font info for 54 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 42i,10n,42p,361b,287s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.e
-nc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1
-000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/
-texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/pu
-blic/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm12
-00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on lab01.pdf (3 pages, 148143 bytes).
+ 42i,10n,42p,848b,1563s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/font
+s/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.
+enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
+10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/t
+exmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm050
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfrm1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier
+/ucrr8a.pfb>
+Output written on lab01.pdf (13 pages, 7955006 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 143 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
