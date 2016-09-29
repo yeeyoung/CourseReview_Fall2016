@@ -51,4 +51,7 @@ Holder's inequality
 Minkowski's inequality  
 How to prove Minkowski inequality from Holder's inequality, which conditions for equality holds and what p, q conditions for inequality and equality holds for two formulas.  
 Some notes that clarify conceptions like "complete", "compact", "closure" etc have been recorded in review1.pdf uploaded into this folder.  
-
+<u>*09-28-2016*</u>  
+Frame is a subset of vectors in Hilbert space, they can be linearly independent or linearly dependend, but at least they must span the whole Hilbert space.  
+More information about frame theory please refer to Frame.pdf  
+__Wavelet Theory__
