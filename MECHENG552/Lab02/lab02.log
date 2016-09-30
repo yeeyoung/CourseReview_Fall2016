@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.9.10)  25 SEP 2016 21:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.9.10)  30 SEP 2016 02:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -437,28 +437,67 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 20.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+<maglev.jpeg, id=1, 3276.24pt x 1723.43875pt>
+File: maglev.jpeg Graphic file (type jpg)
+ <use maglev.jpeg>
+Package pdftex.def Info: maglev.jpeg used on input line 42.
+(pdftex.def)             Requested size: 327.64319pt x 172.35397pt.
+
+<sisotool.png, id=2, 1562.83875pt x 895.345pt>
+File: sisotool.png Graphic file (type png)
+ <use sisotool.png>
+Package pdftex.def Info: sisotool.png used on input line 52.
+(pdftex.def)             Requested size: 468.85524pt x 268.60558pt.
+ [1
 Non-PDF special ignored!
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(./lab02.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./maglev.jpeg>] <emitter_c
+ircuit.png, id=17, 537.00626pt x 210.7875pt>
+File: emitter_circuit.png Graphic file (type png)
+
+<use emitter_circuit.png>
+Package pdftex.def Info: emitter_circuit.png used on input line 69.
+(pdftex.def)             Requested size: 429.60559pt x 168.63022pt.
+ [2 <./sisotool.png>]
+<current_driver_circuit.png, id=23, 867.24pt x 483.8075pt>
+File: current_driver_circuit.png Graphic file (type png)
+
+<use current_driver_circuit.png>
+Package pdftex.def Info: current_driver_circuit.png used on input line 81.
+(pdftex.def)             Requested size: 346.88986pt x 193.51956pt.
+ [3 <./emitter_circuit.png>] [4 <./current_driver_circuit.png>] <physnapshot.jp
+eg, id=31, 803.0pt x 602.25pt>
+File: physnapshot.jpeg Graphic file (type jpg)
+
+<use physnapshot.jpeg>
+Package pdftex.def Info: physnapshot.jpeg used on input line 105.
+(pdftex.def)             Requested size: 321.1943pt x 240.89572pt.
+ [5 <./physnapshot.jpeg>] (./lab02.aux) ) 
 Here is how much of TeX's memory you used:
- 5861 strings out of 493304
- 80221 string characters out of 6139871
- 142574 words of memory out of 5000000
- 9200 multiletter control sequences out of 15000+600000
- 13543 words of font info for 40 fonts, out of 8000000 for 9000
+ 5906 strings out of 493304
+ 80944 string characters out of 6139871
+ 145590 words of memory out of 5000000
+ 9235 multiletter control sequences out of 15000+600000
+ 15577 words of font info for 49 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 42i,6n,42p,361b,219s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr
-/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/
-share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on lab02.pdf (1 page, 57495 bytes).
+ 42i,8n,42p,636b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-s
+uper/cm-super-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.en
+c}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfrm1728.pfb>
+Output written on lab02.pdf (5 pages, 1075849 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 20 compressed objects within 1 object stream
+ 73 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
