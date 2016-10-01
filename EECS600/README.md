@@ -54,4 +54,13 @@ Some notes that clarify conceptions like "complete", "compact", "closure" etc ha
 <u>*09-28-2016*</u>  
 Frame is a subset of vectors in Hilbert space, they can be linearly independent or linearly dependend, but at least they must span the whole Hilbert space.  
 More information about frame theory please refer to Frame.pdf  
-__Wavelet Theory__
+__Wavelet Theory__  
+<u>*10-01-2016*</u>  
+__strictly normed Banach Space__: the last problem in HW2  
+__strictly convex set__  
+__Heine-Borel Theorem__: compact = complete + totally bounded  
+__Variational Problem__: functional.pdf illustrates the existance and uniqueness of the solution to projection problems: Arbitray Banach Space + closed convex subset  
+__Projection Theorem for Convex Subset in Hilbert Space__: proved by Parallelogram identity + completeness of Hilbert Space + convex property  
+__Projection for Conve Subset in arbitrary Banach Space__: existance (to prove the compactness of Banach Space), uniqueness (see whether the convex subset is strictly convex)   
+---
+10-01-2016: I just list some extensional problems that I should take care of from last problem of HW2
