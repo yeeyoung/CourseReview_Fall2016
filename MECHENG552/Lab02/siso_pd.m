@@ -6,7 +6,7 @@ close all;
 clear all;
 s = tf('s');
 % Define plant tf
-G = -42.8125/(s^2 - 7848);
+G = -51/(s^2 - 4685);
 Con = tf([1 1], [1 1]);
 H = 1;
 F = 1;

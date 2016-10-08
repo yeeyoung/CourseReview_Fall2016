@@ -42,8 +42,8 @@ Present a block diagram of the closed loop control system, provide all numerical
 	\includegraphics[scale=0.1]{maglev.jpeg}
 	\caption{Maglev System Block Diagram}
 \end{figure}
-It is a brief scheme of maglev system block diagram, we implement a PD controller in Labview and use sisotool in Matlab to tune parameters for controller. First set the desired equilibrium position to be $\bar{x} = 2.5mm$, bias voltage to be $2.2 V$, the open loop system can be:
-$$\mf{\hat{X}(s)}{\hat{I}(s)} = \mf{-42.8125}{s^2 - 7848}$$
+It is a brief scheme of maglev system block diagram, we implement a PD controller in Labview and use sisotool in Matlab to tune parameters for controller. First set the desired equilibrium position to be $\bar{x} = 4.19mm$, bias voltage to be $1.85 V$, the open loop system can be:
+$$\mf{\hat{X}(s)}{\hat{I}(s)} = \mf{-51}{s^2 - 4685}$$
 The next step is to tune PD controller in sisotool. We snapshot the tune results from Matlab, the PD controller is:
 $$D(s) = \mf{-2000-5.6s}{1+0.0079s}$$
 We need to tune P and D gain to make Labview PD controller match with Matlab PD controller.
