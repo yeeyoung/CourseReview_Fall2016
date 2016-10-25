@@ -1,0 +1,135 @@
+% EECS442 Problem 2, Homework 3
+% Linear Fit for Perspective Camera Model Calibration
+% Code overview: Load in data, extract corners, create correspondences,then
+% solve for the missing parameters via least squares
+% by Yi Yang
+% Date: 10/25/2016
+
+%% Load in images
+img1 = imread('homework3/Q2/1.JPG');
+img2 = imread('homework3/Q2/2.JPG');
+figure, imagesc(img1); colormap(gray);
+title('Click a point on this image'); axis image;
+a = []
+
+%% Take in corner input - make sure to click in order corresponding to A
+%% below.
+
+for i = 1:12
+[x y] = ginput(1);
+a = [a [x;y]]
+img1(round(y),round(x)) = 255;
+imagesc(img1); colormap(gray);
+title('Click a point on this image'); axis image;
+end
+
+figure, imagesc(img2); colormap(gray);
+title('Click a point on this image'); axis image;
+for i = 1:12
+[x y] = ginput(1);
+a = [a [x;y]]
+img1(round(y),round(x)) = 255;
+imagesc(img2); colormap(gray);
+title('Click a point on this image'); axis image;
+end
+save a
+%% 3D coordinates
+A  = [];
+A = [ [ 0 0 0]' [35 0 0]' [70 0 0]' [105 0 0]' [140 0 0]' [175 0 0]' ...
+[175 35 0]' [175 70 0]' [175 105 0]' [175 140 0]' [175 175 0]' [192.5 192.5 0]' ];
+A = [ A [ 0 0 9.5]' [35 0 9.5]' [70 0 9.5]' [105 0 9.5]' [140 0 9.5]' [175 0 9.5]' ...
+[175 35 9.5]' [175 70 9.5]' [175 105 9.5]' [175 140 9.5]' [175 175 9.5]' [192.5 192.5 9.5]' ];
+A = [A;ones(1,size(A,2)) ]
+aFix = [a; ones(1, size(a,2))]
+
+%Solve for the matrix (least norm)
+% P = aFix*A'*inv(A*A')
+
+%Solve using least squares
+P = findHMatrixCalibration(A', a');
+
+%RMS Calculation
+aCalculated = P * A
+RMS = sqrt(mean(sum((aCalculated - aFix).^2,1)))
+
+
+% RMS =
+%
+%     0.9706
+
+
+
+
+%--------------------------------------------------------
+%returns the H matrix given point (3D) and pointp(image) (transformed coordinates)
+%   point is N X 3,   pointp is N X 2
+
+function out = findHMatrixCalibration (point, pointp)
+
+%shows  the general form of A matrix...
+% x1 = point1(1);
+% x2 = point2(1);
+% x3 = point3(1);
+% x4 = point4(1);
+% y1 = point1(2);
+% y2 = point2(2);
+% y3 = point3(2);
+% y4 = point4(2);
+%
+% x1p = point1p(1);
+% x2p = point2p(1);
+% x3p = point3p(1);
+% x4p = point4p(1);
+% y1p = point1p(2);
+% y2p = point2p(2);
+% y3p = point3p(2);
+% y4p = point4p(2);
+%
+% A = [x1 y1 z1 1 0  0  0  0;
+%      0  0  0 0 x1 y1 z1 1;
+%      x2 y2 z2 1 0  0  0  0;
+%      0  0  0 0 x2 y2 z2 1 ;
+%      x3 y3 z3 1 0  0  0  0;
+%      0  0  0 0 x3 y3 z3 1;
+%      x4 y4 z4 1 0  0  0  0;
+%      0  0  0 0 x4 y4 z4 1  ;
+%      ];
+%  ...
+% b = [x1p y1p x2p y2p x3p y3p x4p y4p ... ]';
+%
+A = [];
+b = [];
+for index = 1:size(point,1)
+    xCurrent = point(index,1);
+    xpCurrent = pointp(index,1);
+    yCurrent = point(index,2);
+    ypCurrent = pointp(index,2);
+    zCurrent =point(index, 3);
+
+
+    %calculates A matrix and B vector
+    A = [A;
+         xCurrent yCurrent zCurrent 1 0 0 0 0;
+         0 0 0 0 xCurrent yCurrent zCurrent 1];
+     b = [b; xpCurrent; ypCurrent];
+end
+
+%least squares solution
+ x = (A'*A)^-1 * A'*b;
+%  x = A\B;  This is an alternative way to obtain the solution.
+
+ a = x(1);
+ b = x(2);
+ c = x(3);
+ d = x(4);
+ e = x(5);
+ f = x(6);
+ g = x(7);
+ h = x(8);
+
+ H = [a b c d;
+      e f g h;
+      0 0 0 1];
+ out = H;
+
+end

@@ -1,0 +1,185 @@
+\documentclass[letterpaper]{article}
+\usepackage{amssymb}
+\usepackage{fullpage}
+\usepackage{changepage}
+\usepackage{amsmath}
+\usepackage{epsfig,float,alltt}
+\usepackage{psfrag,xr}
+\usepackage[T1]{fontenc}
+\usepackage{url}
+\usepackage{pdfpages}
+\usepackage{epstopdf}
+\usepackage[framed,numbered,autolinebreaks,useliterate]{mcode}
+
+%\includepdfset{pagecommand=\thispagestyle{fancy}}
+\author{Yi Yang}
+\title{EECS 442 Homework \#3}
+
+\begin{document}
+\date{10/23/2016}
+\maketitle
+
+\newcommand{\trace}{\mathrm{trace}}
+\newcommand{\real}{\mathbb R}  % real numbers  {I\!\!R}
+\newcommand{\nat}{\mathbb N}   % Natural numbers {I\!\!N}
+\newcommand{\cp}{\mathbb C}    % complex numbers  {I\!\!\!\!C}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\mf}[2]{\frac{\ds #1}{\ds #2}}
+\newcommand{\spanof}[1]{\textrm{span} \{ #1 \}}
+\newcommand{\sol}[0]{\textbf{Solution: }}
+\newcommand{\pf}[0]{\textbf{Proof:}}
+\newcommand{\rme}[0]{\textrm{e}}
+\newcommand{\Null}[1]{\textrm{Null}\{#1\}}
+\parindent 0pt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Solution for Question 1 begins here - by Yi Yang
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Problem 1}
+\subsection*{(a)}
+Suppose in the world coordinate, there exists a line $l_0$ passing through point A, then any point in this line can be represented as $B = A + rd,\; \forall B\in l_0$. Transforming B to homogeneous coordinate, we have:
+$$B_w = 
+\begin{bmatrix}
+a_1 + r\cos{\alpha}\\
+a_2 + r\cos{\beta}\\
+a_3 + r\cos{\gamma}\\
+1
+\end{bmatrix}
+\cong
+\begin{bmatrix}
+\mf{a_1}{r} + \cos{\alpha}\\
+\mf{a_2}{r} + \cos{\beta}\\
+\mf{a_3}{r} + \cos{\gamma}\\
+\mf{1}{r}
+\end{bmatrix}
+$$
+We know that the vanishing point is obtained when $r\rightarrow \infty$, hence
+$$\lim_{r\rightarrow\infty}B_w = 
+\begin{bmatrix}
+\cos{\alpha}\\
+\cos{\beta}\\
+\cos{\gamma}\\
+0
+\end{bmatrix}
+$$
+Then the image coordinates of the vanishing point can be written as:
+$$v = K[R\; T]\lim_{r\rightarrow\infty}B_w = KRd$$
+where $d$ is given by $d = \begin{bmatrix}
+\cos{\alpha}\\
+\cos{\beta}\\
+\cos{\gamma}
+\end{bmatrix}
+$, K is the camera calibration matrix and R is the rotation matrix between the camera and the world coordinates.
+\subsection*{(b)}
+First we must prove that K and R is nonsingular, in lecture we have shown that K has the form as follows:
+$$K = 
+\begin{bmatrix}
+fl & fl\cot{\theta} & u_0\\
+0 & \mf{fk}{\sin{\theta}} & v_0\\
+0 & 0 & 1
+\end{bmatrix}
+$$
+Then, the determinant of K is $|K| = \tfrac{f^2k}{\sin{\theta}} \neq 0$, which means K is nonsingular and it has inverse matrix. Next, for rotation matrix R, we have:
+$$R = \begin{bmatrix}
+1 & 0 & 0\\
+0 & \cos{\theta_x} & -\sin{\theta_x}\\
+0 & \sin{\theta_x} & \cos{\theta_x}
+\end{bmatrix}
+\begin{bmatrix}
+\cos{\theta_y} & 0 & -\sin{\theta_y}\\
+0 & 1 & 0\\
+\sin{\theta_y} & 0 & \cos{\theta_y}
+\end{bmatrix}
+\begin{bmatrix}
+\cos{\theta_z} & -\sin{\theta_z} & 0\\
+\sin{\theta_z} & \cos{\theta_z} & 0\\
+0 & 0 & 1
+\end{bmatrix}
+$$
+Hence the determinant of R is $det(R) = det(R_x)\cdot det(R_y) \cdot det(R_z) = 1\times 1\times 1 = 1 \neq 0$, that means R is nonsingular and inverse matrix of R exists. Therefore, we get the final expression of d in terms of K, R and v.
+$$d = R^{-1}K^{-1}v$$
+\subsection*{(c)}
+From section (b), we can easily prove that R is a unitary matrix(orthogonal matrix), which has the property that $RR^{T} = R^TR = I$. Since $Rd = K^{-1}v$, we have:
+$$\left(K^{-1}v_i\right)^T\left(K^{-1}v_j\right) = d_i^TR^TRd_j = d_i^Td_j$$
+Using the conditions provided in the question, we have:
+$$\left(K^{-1}v_i\right)^T\left(K^{-1}v_j\right) = 0$$
+for $i \neq j$.
+
+\section*{Problem 2}
+\subsection*{(a)}
+No, since the camera matrix will not be full rank when we pick only one checkboard for camera calibration. The vertex matrix is nor invertible and we can not calculate the inverse of it. We can calibrate the matrix only if we can use pseudoinverse to the compute the solution of a underdetermined linear system equations.
+
+\subsection*{(b)(c)}
+We can first express n group of correspondences in affine form and put all the unknowns in the coefficient matrix P into a unknown vector x and re-regulate the system equations, then we can get a coefficient matrix with known parameters. The last step is to apply least square approximation to the new formulated system of equations and get the final results. The original system can be represented as:
+$$
+x = 
+\begin{bmatrix}
+x_1 & \cdots & x_n\\
+y_1 & \cdots & y_n\\
+1 & \cdots & 1
+\end{bmatrix},\quad
+P = 
+\begin{bmatrix}
+p_{11} & p_{12} & p_{13} & p_{14}\\
+p_{21} & p_{22} & p_{23} & p_{24}\\
+0 & 0 & 0 & 1
+\end{bmatrix},\quad
+X = 
+\begin{bmatrix}
+X_1 & \cdots & X_n\\
+Y_1 & \cdots & Y_n\\
+Z_1 & \cdots & Z_n\\
+1 & \cdots & 1
+\end{bmatrix}
+$$
+By expanding out the first 3D world to 2D point correspondences, we obtain:
+\[x_{1} = p_{11} X_{1} + p_{12} Y_{1} + p_{13} Z_{1}  + p_{14}   \]
+\[y_{1} = p_{21} X_{1} + p_{22} Y_{1} + p_{23} Z_{1}  + p_{24}   \]
+Use the similar way, we can represent all the corresponding points in a system equations represented as:
+$$Ax = b = 
+\begin{bmatrix}
+X_1 & Y_1 & Z_1 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & X_1 & Y_1 & Z_1 & 1\\
+X_2 & Y_2 & Z_2 & 1 & 0 & 0 & 0 & 0\\
+0 & 0 & 0 & 0 & X_2 & Y_2 & Z_2 & 1\\
+\cdots & & &
+\end{bmatrix}
+\begin{bmatrix}
+p_{11}\\
+p_{12}\\
+p_{13}\\
+p_{14}\\
+p_{21}\\
+p_{22}\\
+p_{23}\\
+p_{24}
+\end{bmatrix} = 
+\begin{bmatrix}
+x_1\\
+y_1\\
+x_2\\
+y_2\\
+\cdots
+\end{bmatrix}
+$$
+Hence, we can solve the equation listed above by apply least square approximation to it and we can get:
+$$x = (A^TA)^{-1}A^Tb$$
+We can also directly solve for P via the original system of equations by minimizing the norm $\|PX - x\|$, we get the following solutions:
+$$P = xX^T(XX^T)^{-1}$$
+Then, we can use the projective matrix we have solved for to compute the RMS error which is defined as:
+$$RMS = \sqrt{\mf{1}{N}\sum_{i=1}^{N}\left(\left(x_i - x_{i_{calculated}}\right)^2 + \left(y_i - y_{i_{calculated}}\right)^2\right)}$$
+where N is the number of correspondences we use for approximation in this problem.\\
+We calculate that the RMS error (in pixels) between the corner positions and the positions predicted by the camera parameters is:
+$$RMS = 2.2931$$
+The $3\times 4$ calibrated camera matrix is:
+$$P = 
+\begin{bmatrix}
+1.3480 & 0.0497 & -0.0970 & 160.1158\\
+-0.0442 & 1.3396 & 0.2547 & 60.8333\\
+0 & 0 & 0 & 1.0000
+\end{bmatrix}
+$$
+The Matlab codes for computation is attached below:
+\lstinputlisting[firstline=1, lastline=100]{affineCalibration.m}
+We use findHMatrixCalibration.m function to apply least square algorithm to calculate vectorized P. Codes are listed below:
+\lstinputlisting[firstline=1, lastline=100]{findHMatrixCalibration.m}
+\end{document}
