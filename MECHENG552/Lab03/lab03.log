@@ -1,0 +1,1029 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.9.10)  28 OCT 2016 01:57
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**lab03.tex
+(./lab03.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/preprint/fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip43
+)
+(/usr/share/texlive/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count87
+\cp@tempcnt=\count88
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen103
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks16
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks17
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks18
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count101
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+\epsfxsize=\dimen114
+\epsfysize=\dimen115
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count102
+\float@exts=\toks21
+\float@box=\box28
+\@float@everytoks=\toks22
+\@floatcapt=\box29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psfrag/psfrag.sty
+Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
+\pfg@pcount=\count103
+\pfg@scount=\count104
+\pfg@temp=\write3
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xr.sty
+Package: xr 1994/05/28 v5.02 eXternal References (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count105
+\calc@Bcount=\count106
+\calc@Adimen=\dimen116
+\calc@Bdimen=\dimen117
+\calc@Askip=\skip47
+\calc@Bskip=\skip48
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count107
+\calc@Cskip=\skip49
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+))
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box30
+\AM@toc@title=\toks23
+\c@AM@survey=\count108
+\AM@templatesizebox=\box31
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(./mcode.sty
+-- Package: `mcode' 2.5 <2014/03/06> --
+Package: mcode 2014/03/06 2.5
+ - settings optimized for display (colour formating)
+ - line numbering enabled
+ - literate programming (character replacements) enabled
+ - automatic line breaking enabled (careful, buggy!)
+ - framed listings
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count109
+\lst@gtempboxa=\box32
+\lst@token=\toks24
+\lst@length=\count110
+\lst@currlwidth=\dimen118
+\lst@column=\count111
+\lst@pos=\count112
+\lst@lostspace=\dimen119
+\lst@width=\dimen120
+\lst@newlines=\count113
+\lst@lineno=\count114
+\lst@maxwidth=\dimen121
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+\c@lstnumber=\count115
+\lst@skipnumbers=\count116
+\lst@framebox=\box33
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2013/08/26 1.5b listings configuration
+))
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+\lbreakdots=\box34
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 229.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)) (./lab03.aux
+
+LaTeX Warning: Label `q3_18' multiply defined.
+
+
+LaTeX Warning: Label `Velocity_control_step' multiply defined.
+
+)
+\openout1 = `lab03.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 18.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 18.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count117
+\scratchdimen=\dimen122
+\scratchbox=\box35
+\nofMPsegments=\count118
+\nofMParguments=\count119
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count120
+\MPscratchDim=\dimen123
+\MPnumerator=\count121
+\makeMPintoPDFobject=\count122
+\everyMPtoPDFconversion=\toks26
+)
+\AtBeginShipoutBox=\box36
+\c@lstlisting=\count123
+LaTeX Font Info:    Try loading font information for U+msa on input line 20.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 20.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+<q1a_u1.png, id=1, 1135.24126pt x 1094.0875pt>
+File: q1a_u1.png Graphic file (type png)
+ <use q1a_u1.png>
+Package pdftex.def Info: q1a_u1.png used on input line 45.
+(pdftex.def)             Requested size: 170.27884pt x 164.10603pt.
+
+<q1a_u3.png, id=3, 1027.84pt x 801.99625pt>
+File: q1a_u3.png Graphic file (type png)
+ <use q1a_u3.png>
+Package pdftex.def Info: q1a_u3.png used on input line 57.
+(pdftex.def)             Requested size: 154.16934pt x 120.29424pt.
+ [1
+Non-PDF special ignored!
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./q1a_u1.png>] <q1a_u4.png
+, id=22, 1027.84pt x 905.3825pt>
+File: q1a_u4.png Graphic file (type png)
+ <use q1a_u4.png>
+Package pdftex.def Info: q1a_u4.png used on input line 63.
+(pdftex.def)             Requested size: 154.16934pt x 135.80151pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+[2 <./q1a_u3.png> <./q1a_u4.png>]
+<temperature.png, id=29, 439.6425pt x 353.82187pt>
+File: temperature.png Graphic file (type png)
+ <use temperature.png>
+Package pdftex.def Info: temperature.png used on input line 94.
+(pdftex.def)             Requested size: 219.82071pt x 176.91049pt.
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+[4 <./temperature.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
+
+ []
+
+<dcmotor.png, id=37, 1251.67625pt x 677.53125pt>
+File: dcmotor.png Graphic file (type png)
+ <use dcmotor.png>
+Package pdftex.def Info: dcmotor.png used on input line 131.
+(pdftex.def)             Requested size: 284.51805pt x 170.71603pt.
+ [5]
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+<q2_b_1.png, id=41, 681.54625pt x 431.6125pt>
+File: q2_b_1.png Graphic file (type png)
+ <use q2_b_1.png>
+Package pdftex.def Info: q2_b_1.png used on input line 142.
+(pdftex.def)             Requested size: 284.52756pt x 180.18933pt.
+
+<q2_b_2.png, id=42, 534.99875pt x 410.53375pt>
+File: q2_b_2.png Graphic file (type png)
+ <use q2_b_2.png>
+Package pdftex.def Info: q2_b_2.png used on input line 151.
+(pdftex.def)             Requested size: 284.52756pt x 218.33981pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--155
+
+ []
+
+[6 <./dcmotor.png> <./q2_b_1.png>] <q2_b_3.png, id=48, 674.52pt x 421.575pt>
+File: q2_b_3.png Graphic file (type png)
+
+<use q2_b_3.png>
+Package pdftex.def Info: q2_b_3.png used on input line 159.
+(pdftex.def)             Requested size: 284.52756pt x 177.83221pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--163
+
+ []
+
+[7 <./q2_b_2.png> <./q2_b_3.png>]
+<motorServoSystem.png, id=55, 1024.82875pt x 463.7325pt>
+File: motorServoSystem.png Graphic file (type png)
+
+<use motorServoSystem.png>
+Package pdftex.def Info: motorServoSystem.png used on input line 175.
+(pdftex.def)             Requested size: 368.93806pt x 166.94356pt.
+
+<motorSubsystem.png, id=56, 1024.82875pt x 556.0775pt>
+File: motorSubsystem.png Graphic file (type png)
+
+<use motorSubsystem.png>
+Package pdftex.def Info: motorSubsystem.png used on input line 189.
+(pdftex.def)             Requested size: 409.92424pt x 222.42705pt.
+ [8 <./motorServoSystem.png>]
+<SensorSubsystem.png, id=60, 966.61125pt x 182.6825pt>
+File: SensorSubsystem.png Graphic file (type png)
+
+<use SensorSubsystem.png>
+Package pdftex.def Info: SensorSubsystem.png used on input line 197.
+(pdftex.def)             Requested size: 347.97978pt x 65.76564pt.
+
+<velocityControlSubsystem.png, id=61, 1423.3175pt x 339.2675pt>
+File: velocityControlSubsystem.png Graphic file (type png)
+
+<use velocityControlSubsystem.png>
+Package pdftex.def Info: velocityControlSubsystem.png used on input line 205.
+(pdftex.def)             Requested size: 455.47092pt x 108.56781pt.
+
+<PositionControlSubsystem.png, id=62, 1243.64626pt x 256.96pt>
+File: PositionControlSubsystem.png Graphic file (type png)
+
+<use PositionControlSubsystem.png>
+Package pdftex.def Info: PositionControlSubsystem.png used on input line 211.
+(pdftex.def)             Requested size: 447.71231pt x 92.50552pt.
+ [9 <./motorSubsystem.png> <./SensorSubsystem.png> <./velocityControlSubsystem.
+png>]
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+
+ []
+
+<q3_7.PNG, id=66, 536.0025pt x 155.83218pt>
+File: q3_7.PNG Graphic file (type png)
+ <use q3_7.PNG>
+Package pdftex.def Info: q3_7.PNG used on input line 221.
+(pdftex.def)             Requested size: 398.33858pt x 115.8086pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+<q3_8.png, id=67, 478.78876pt x 442.65375pt>
+File: q3_8.png Graphic file (type png)
+ <use q3_8.png>
+Package pdftex.def Info: q3_8.png used on input line 232.
+(pdftex.def)             Requested size: 191.5121pt x 177.05835pt.
+
+<q3_9.png, id=68, 478.78876pt x 442.65375pt>
+File: q3_9.png Graphic file (type png)
+ <use q3_9.png>
+Package pdftex.def Info: q3_9.png used on input line 235.
+(pdftex.def)             Requested size: 191.5121pt x 177.05835pt.
+
+<q3_10.png, id=69, 478.78876pt x 442.65375pt>
+File: q3_10.png Graphic file (type png)
+ <use q3_10.png>
+Package pdftex.def Info: q3_10.png used on input line 238.
+(pdftex.def)             Requested size: 191.5121pt x 177.05835pt.
+ [10 <./PositionControlSubsystem.png> <./q3_7.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
+
+ []
+
+[11 <./q3_8.png (PNG copy)> <./q3_9.png (PNG copy)> <./q3_10.png (PNG copy)>]
+[12] <velocity_step.png, id=84, 1394.96156pt x 753.5653pt>
+File: velocity_step.png Graphic file (type png)
+
+<use velocity_step.png>
+Package pdftex.def Info: velocity_step.png used on input line 293.
+(pdftex.def)             Requested size: 432.43362pt x 233.60283pt.
+ <velocity_sine_5.png, id=85, 421.575pt x 316.18124pt>
+File: velocity_sine_5.png Graphic file (type png)
+
+<use velocity_sine_5.png>
+Package pdftex.def Info: velocity_sine_5.png used on input line 300.
+(pdftex.def)             Requested size: 421.57396pt x 316.18047pt.
+
+<velocity_noise_60.png, id=86, 1394.96156pt x 753.5653pt>
+File: velocity_noise_60.png Graphic file (type png)
+
+<use velocity_noise_60.png>
+Package pdftex.def Info: velocity_noise_60.png used on input line 306.
+(pdftex.def)             Requested size: 418.4917pt x 226.07133pt.
+ [13 <./velocity_step.png (PNG copy)>] [14 <./velocity_sine_5.png (PNG copy)> <
+./velocity_noise_60.png (PNG copy)>]
+<q3_16.png, id=94, 478.78876pt x 442.65375pt>
+File: q3_16.png Graphic file (type png)
+ <use q3_16.png>
+Package pdftex.def Info: q3_16.png used on input line 317.
+(pdftex.def)             Requested size: 455.24408pt x 420.89015pt.
+ [15
+
+ <./q3_16.png (PNG copy)>]
+Overfull \hbox (18.75145pt too wide) in paragraph at lines 352--361
+ [] 
+ []
+
+<position_step.png, id=98, 1394.96156pt x 753.5653pt>
+File: position_step.png Graphic file (type png)
+ <use position_step.png>
+Package pdftex.def Info: position_step.png used on input line 369.
+(pdftex.def)             Requested size: 418.4917pt x 226.07133pt.
+
+[16] <position_sine.png, id=102, 1394.96156pt x 753.5653pt>
+File: position_sine.png Graphic file (type png)
+
+<use position_sine.png>
+Package pdftex.def Info: position_sine.png used on input line 377.
+(pdftex.def)             Requested size: 418.4917pt x 226.07133pt.
+
+<position_noise_60.png, id=103, 1394.96156pt x 753.5653pt>
+File: position_noise_60.png Graphic file (type png)
+
+<use position_noise_60.png>
+Package pdftex.def Info: position_noise_60.png used on input line 385.
+(pdftex.def)             Requested size: 418.4917pt x 226.07133pt.
+ [17 <./position_step.png (PNG copy)> <./position_sine.png (PNG copy)>]
+<position_noise_200.png, id=107, 1394.96156pt x 753.5653pt>
+File: position_noise_200.png Graphic file (type png)
+
+<use position_noise_200.png>
+Package pdftex.def Info: position_noise_200.png used on input line 393.
+(pdftex.def)             Requested size: 418.4917pt x 226.07133pt.
+ [18 <./position_noise_60.png (PNG copy)> <./position_noise_200.png (PNG copy)>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 403--404
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--421
+
+ []
+
+<posstep_1pi.png, id=111, 1122.1925pt x 658.46pt>
+File: posstep_1pi.png Graphic file (type png)
+ <use posstep_1pi.png>
+Package pdftex.def Info: posstep_1pi.png used on input line 424.
+(pdftex.def)             Requested size: 224.43452pt x 131.68967pt.
+
+<positionStepError.png, id=112, 439.6425pt x 353.82187pt>
+File: positionStepError.png Graphic file (type png)
+
+<use positionStepError.png>
+Package pdftex.def Info: positionStepError.png used on input line 432.
+(pdftex.def)             Requested size: 219.82071pt x 176.91049pt.
+ [19
+
+ <./posstep_1pi.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
+
+ []
+
+<PosNoise.png, id=117, 439.6425pt x 353.82187pt>
+File: PosNoise.png Graphic file (type png)
+ <use PosNoise.png>
+Package pdftex.def Info: PosNoise.png used on input line 442.
+(pdftex.def)             Requested size: 219.82071pt x 176.91049pt.
+
+<PosNoiseZoom.png, id=118, 439.6425pt x 353.82187pt>
+File: PosNoiseZoom.png Graphic file (type png)
+ <use PosNoiseZoom.png>
+Package pdftex.def Info: PosNoiseZoom.png used on input line 450.
+(pdftex.def)             Requested size: 219.82071pt x 176.91049pt.
+
+[20 <./positionStepError.png (PNG copy)> <./PosNoise.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
+
+ []
+
+<PositionControl_Error.png, id=122, 539.76656pt x 420.06938pt>
+File: PositionControl_Error.png Graphic file (type png)
+
+<use PositionControl_Error.png>
+Package pdftex.def Info: PositionControl_Error.png used on input line 492.
+(pdftex.def)             Requested size: 269.88261pt x 210.03418pt.
+ [21 <./PosNoiseZoom.png (PNG copy)>]
+<PositionControl_Magnitude.png, id=126, 780.66656pt x 417.81094pt>
+File: PositionControl_Magnitude.png Graphic file (type png)
+
+<use PositionControl_Magnitude.png>
+Package pdftex.def Info: PositionControl_Magnitude.png used on input line 500.
+(pdftex.def)             Requested size: 359.11098pt x 192.19536pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 506--507
+
+ []
+
+[22 <./PositionControl_Error.png> <./PositionControl_Magnitude.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 512--513
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 514--515
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 516--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
+
+ []
+
+<q5b.png, id=130, 478.78876pt x 442.65375pt>
+File: q5b.png Graphic file (type png)
+ <use q5b.png>
+Package pdftex.def Info: q5b.png used on input line 542.
+(pdftex.def)             Requested size: 284.52852pt x 227.62811pt.
+File: posstep_1pi.png Graphic file (type png)
+
+<use posstep_1pi.png>
+Package pdftex.def Info: posstep_1pi.png used on input line 550.
+(pdftex.def)             Requested size: 284.52003pt x 142.2594pt.
+ [23
+
+]
+<posstep_15pi.png, id=134, 1122.1925pt x 676.5275pt>
+File: posstep_15pi.png Graphic file (type png)
+ <use posstep_15pi.png>
+Package pdftex.def Info: posstep_15pi.png used on input line 558.
+(pdftex.def)             Requested size: 284.52003pt x 142.26077pt.
+
+[24 <./q5b.png (PNG copy)>]
+<posstep_2pi.png, id=138, 1122.1925pt x 667.49374pt>
+File: posstep_2pi.png Graphic file (type png)
+ <use posstep_2pi.png>
+Package pdftex.def Info: posstep_2pi.png used on input line 566.
+(pdftex.def)             Requested size: 284.52003pt x 142.25558pt.
+
+<posstep_3pi.png, id=139, 1122.1925pt x 685.56125pt>
+File: posstep_3pi.png Graphic file (type png)
+ <use posstep_3pi.png>
+Package pdftex.def Info: posstep_3pi.png used on input line 574.
+(pdftex.def)             Requested size: 284.52003pt x 142.25653pt.
+
+<posstep_4pi.png, id=140, 1122.1925pt x 694.595pt>
+File: posstep_4pi.png Graphic file (type png)
+ <use posstep_4pi.png>
+Package pdftex.def Info: posstep_4pi.png used on input line 582.
+(pdftex.def)             Requested size: 284.52003pt x 142.2657pt.
+
+[25 <./posstep_15pi.png (PNG copy)> <./posstep_2pi.png (PNG copy)> <./posstep_3
+pi.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 589--590
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 591--592
+
+ []
+
+<q5c_sine_75.png, id=145, 478.78876pt x 442.65375pt>
+File: q5c_sine_75.png Graphic file (type png)
+ <use q5c_sine_75.png>
+Package pdftex.def Info: q5c_sine_75.png used on input line 597.
+(pdftex.def)             Requested size: 284.52852pt x 170.71602pt.
+
+<q5c_step_325.png, id=146, 963.6pt x 683.55376pt>
+File: q5c_step_325.png Graphic file (type png)
+ <use q5c_step_325.png>
+Package pdftex.def Info: q5c_step_325.png used on input line 605.
+(pdftex.def)             Requested size: 284.5242pt x 170.71071pt.
+
+[26 <./posstep_4pi.png (PNG copy)> <./q5c_sine_75.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 614--627
+
+ []
+
+<Matlab_simulink_question6.png, id=150, 1126.2075pt x 513.92pt>
+File: Matlab_simulink_question6.png Graphic file (type png)
+
+<use Matlab_simulink_question6.png>
+Package pdftex.def Info: Matlab_simulink_question6.png used on input line 630.
+(pdftex.def)             Requested size: 369.88582pt x 168.7864pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 636--637
+
+ []
+
+<Velocity_control(step).jpg, id=151, 1124.2pt x 843.15pt>
+File: Velocity_control(step).jpg Graphic file (type jpg)
+
+<use Velocity_control(step).jpg>
+Package pdftex.def Info: Velocity_control(step).jpg used on input line 640.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+ [27 <./q5c_step_325.png (PNG copy)>]
+<Error(step).jpg, id=155, 1124.2pt x 843.15pt>
+File: Error(step).jpg Graphic file (type jpg)
+ <use Error(step).jpg>
+Package pdftex.def Info: Error(step).jpg used on input line 648.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+ [28 <./Matlab_simulink_question6.png> <./Velocity_control(step).jpg>]
+<Velocity_control(step)with_parasitic_effects.jpg, id=160, 1124.2pt x 843.15pt>
+File: Velocity_control(step)with_parasitic_effects.jpg Graphic file (type jpg)
+<use Velocity_control(step)with_parasitic_effects.jpg>
+Package pdftex.def Info: Velocity_control(step)with_parasitic_effects.jpg used 
+on input line 658.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 655--662
+
+ []
+
+<Error(step)with_parasitic_effects.jpg, id=161, 1124.2pt x 843.15pt>
+File: Error(step)with_parasitic_effects.jpg Graphic file (type jpg)
+
+<use Error(step)with_parasitic_effects.jpg>
+Package pdftex.def Info: Error(step)with_parasitic_effects.jpg used on input li
+ne 665.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+ [29 <./Error(step).jpg>] [30 <./Velocity_control(step)with_parasitic_effects.j
+pg> <./Error(step)with_parasitic_effects.jpg>] <velocity_control_step.JPG, id=1
+68, 667.74469pt x 550.30594pt>
+File: velocity_control_step.JPG Graphic file (type jpg)
+
+<use velocity_control_step.JPG>
+Package pdftex.def Info: velocity_control_step.JPG used on input line 689.
+(pdftex.def)             Requested size: 426.79134pt x 351.74117pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 695--696
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 698--712
+
+ []
+
+[31 <./velocity_control_step.JPG>]
+<Velocity_control(Sine).jpg, id=173, 1124.2pt x 843.15pt>
+File: Velocity_control(Sine).jpg Graphic file (type jpg)
+
+<use Velocity_control(Sine).jpg>
+Package pdftex.def Info: Velocity_control(Sine).jpg used on input line 716.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 713--720
+
+ []
+
+<Error(sine).jpg, id=174, 1124.2pt x 843.15pt>
+File: Error(sine).jpg Graphic file (type jpg)
+ <use Error(sine).jpg>
+Package pdftex.def Info: Error(sine).jpg used on input line 724.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+ [32 <./Velocity_control(Sine).jpg>]
+<Velocity_control(sine)with_parasitic_effects.jpg, id=178, 1124.2pt x 843.15pt>
+File: Velocity_control(sine)with_parasitic_effects.jpg Graphic file (type jpg)
+<use Velocity_control(sine)with_parasitic_effects.jpg>
+Package pdftex.def Info: Velocity_control(sine)with_parasitic_effects.jpg used 
+on input line 734.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 731--738
+
+ []
+
+[33 <./Error(sine).jpg>]
+<Error(sine)with_parasitic_effects.jpg, id=182, 1124.2pt x 843.15pt>
+File: Error(sine)with_parasitic_effects.jpg Graphic file (type jpg)
+
+<use Error(sine)with_parasitic_effects.jpg>
+Package pdftex.def Info: Error(sine)with_parasitic_effects.jpg used on input li
+ne 742.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+
+<velocity_control_sine_5hz.JPG, id=183, 667.74469pt x 550.30594pt>
+File: velocity_control_sine_5hz.JPG Graphic file (type jpg)
+
+<use velocity_control_sine_5hz.JPG>
+Package pdftex.def Info: velocity_control_sine_5hz.JPG used on input line 753.
+(pdftex.def)             Requested size: 426.79134pt x 351.74117pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 750--757
+
+ []
+
+[34 <./Velocity_control(sine)with_parasitic_effects.jpg> <./Error(sine)with_par
+asitic_effects.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 759--760
+
+ []
+
+<velocity_control_sine_2pi_5hz.PNG, id=187, 667.74469pt x 530.73282pt>
+File: velocity_control_sine_2pi_5hz.PNG Graphic file (type png)
+
+<use velocity_control_sine_2pi_5hz.PNG>
+Package pdftex.def Info: velocity_control_sine_2pi_5hz.PNG used on input line 7
+64.
+(pdftex.def)             Requested size: 426.79134pt x 339.23053pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 761--768
+
+ []
+
+[35 <./velocity_control_sine_5hz.JPG>] <15hz.jpg, id=191, 1124.2pt x 843.15pt>
+File: 15hz.jpg Graphic file (type jpg)
+
+<use 15hz.jpg>
+Package pdftex.def Info: 15hz.jpg used on input line 775.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 772--779
+
+ []
+
+[36 <./velocity_control_sine_2pi_5hz.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 783--784
+
+ []
+
+<velocity_control_sine_15hz.JPG, id=196, 667.74469pt x 550.30594pt>
+File: velocity_control_sine_15hz.JPG Graphic file (type jpg)
+
+<use velocity_control_sine_15hz.JPG>
+Package pdftex.def Info: velocity_control_sine_15hz.JPG used on input line 787.
+
+(pdftex.def)             Requested size: 426.79134pt x 351.74117pt.
+ [37 <./15hz.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 793--794
+
+ []
+
+[38 <./velocity_control_sine_15hz.JPG>] (./lab03.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6212 strings out of 493304
+ 87290 string characters out of 6139871
+ 152132 words of memory out of 5000000
+ 9483 multiletter control sequences out of 15000+600000
+ 19417 words of font info for 54 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 42i,10n,42p,1401b,287s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
+fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/
+texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/pu
+blic/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx14
+40.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/t
+exmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm100
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on lab03.pdf (38 pages, 2808409 bytes).
+PDF statistics:
+ 264 PDF objects out of 1000 (max. 8388607)
+ 143 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 261 words of extra memory for PDF output out of 10000 (max. 10000000)
+
